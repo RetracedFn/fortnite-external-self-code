@@ -5,6 +5,9 @@
 #include <vector>
 #include "xor.hpp"
 #include "xstring"
+#include "globals.h"
+#include "../../fortnite-external-self-code/testing self code ext/Imgui/imgui.h"
+
 //uint64_t base_address;
 HWND hwnd = NULL;
 DWORD processID;
@@ -26,4 +29,11 @@ int main()
 	virtualaddy = mem::find_image();
 
 	std::cout << "File Explorer Base Address -> " << virtualaddy << "\n";
+}
+void render() {
+	// menu etc
+	if (ShowMenu)
+	{
+		ImGui::SetNextWindowSize({ 600, 600 });
+	}
 }

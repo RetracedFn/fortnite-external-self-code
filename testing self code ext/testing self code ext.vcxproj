@@ -47,12 +47,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp" />
+    <ClCompile Include="Imgui\imgui_demo.cpp" />
+    <ClCompile Include="Imgui\imgui_draw.cpp" />
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Imgui\imgui_widgets.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="directx9\d3dx9.h" />
+    <ClInclude Include="directx9\d3dx9anim.h" />
+    <ClInclude Include="directx9\d3dx9core.h" />
+    <ClInclude Include="directx9\d3dx9effect.h" />
+    <ClInclude Include="directx9\d3dx9math.h" />
+    <ClInclude Include="directx9\d3dx9mesh.h" />
+    <ClInclude Include="directx9\d3dx9shader.h" />
+    <ClInclude Include="directx9\d3dx9shape.h" />
+    <ClInclude Include="directx9\d3dx9tex.h" />
+    <ClInclude Include="directx9\d3dx9xof.h" />
     <ClInclude Include="driver.h" />
+    <ClInclude Include="Imgui\imconfig.h" />
+    <ClInclude Include="Imgui\imgui.h" />
+    <ClInclude Include="Imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="Imgui\imgui_impl_win32.h" />
+    <ClInclude Include="Imgui\imgui_internal.h" />
+    <ClInclude Include="Imgui\imstb_rectpack.h" />
+    <ClInclude Include="Imgui\imstb_textedit.h" />
+    <ClInclude Include="Imgui\imstb_truetype.h" />
     <ClInclude Include="offsets.h" />
     <ClInclude Include="xor.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directx9\d3dx9math.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
