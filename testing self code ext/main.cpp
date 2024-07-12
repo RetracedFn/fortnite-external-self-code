@@ -1,7 +1,21 @@
 #include <iostream>
 #include "driver.h"
+#include "driver.h"
+
+#include <dwmapi.h>
+#include <vector>
+#include "xor.hpp"
+#include "xstring"
+
 int main()
 {
+	while (hwnd == NULL)
+	{
+		XorS(wind, "Fortnite  ");
+		hwnd = FindWindowA(0, wind.decrypt());
+		Sleep(100);
+	}
+
 	
 	if (!mem::find_driver()) {
 		std::cout << "\n Driver isn't loaded!\n";
