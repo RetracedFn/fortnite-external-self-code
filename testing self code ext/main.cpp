@@ -1,17 +1,18 @@
 #include <iostream>
 #include "driver.h"
-#include "driver.h"
 
 #include <dwmapi.h>
 #include <vector>
 #include "xor.hpp"
 #include "xstring"
-
+//uint64_t base_address;
+HWND hwnd = NULL;
+DWORD processID;
 int main()
 {
 	while (hwnd == NULL)
 	{
-		XorS(wind, "Fortnite  ");
+		XorS(wind, "Fortnite");
 		hwnd = FindWindowA(0, wind.decrypt());
 		Sleep(100);
 	}
