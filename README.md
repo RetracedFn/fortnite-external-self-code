@@ -16,3 +16,8 @@
 - AIMBOT
 - CONTROLLER SUPORT
 - AND MORE MAYBE
+
+
+# credits
+- payson (for driver) https://github.com/paysonism/payson-ioctl-cheat-driver
+- paster x (for imgui/menu sh1t and some random sh1t) https://github.com/PasterBizzy/PasterX-Fortnite-Source
