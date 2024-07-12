@@ -32,7 +32,7 @@ int main()
 }
 void render() {
 	// menu etc
-	if (ShowMenu)
+	if (openmenu)
 	{
 		ImGui::SetNextWindowSize({ 600, 600 });
 	}

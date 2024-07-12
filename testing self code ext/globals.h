@@ -1,4 +1,4 @@
 #pragma once
 
 
-bool ShowMenu = true;
+bool openmenu = true;
